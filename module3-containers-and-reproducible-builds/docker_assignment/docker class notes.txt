@@ -1,0 +1,31 @@
+1. docker
+2. docker create --help #or docker COMMAND -help but fill in your own command
+3. 
+4. docker run hello-world #runs a sample container with some text
+5. docker container ls -a #gives a list of all containers (aka instances)
+6. docker image ls #gives list of images (aka templates)
+7. docker container prune #deletes all containers from workspace
+8.
+9. which apk
+10. apk add nano
+11. nano #inside nano make sampletext file and save
+12. ls
+13. 
+14. docker run -it debian /bin/bash #runs debian container
+15. echo 'sample text in debian' > debian_file
+16. ls
+17. exit #exits out of debian back into general workspace
+18. ls
+
+19. # Contents of Dockerfile
+
+20. FROM debian
+21.
+22. ENV PYTHONUNBUFFERED=1 
+23. RUN apt-get update && apt-get upgrade -y && \
+24. apt-get install python3-pip curl nano -y && \
+25. pip3 install pandas numpy && \
+26. pip3 install -i https//test.pypi.org/simple/ lambdata-Krissy && \
+27. python3 -c "import lambdata_Krissy; print('hooray hooray hooray!')"
+
+            

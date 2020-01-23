@@ -1,0 +1,4 @@
+HOW TO USE DOCKER AND ADD FILES
+
+sample text here
+
