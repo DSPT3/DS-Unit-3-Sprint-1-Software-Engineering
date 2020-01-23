@@ -28,7 +28,29 @@
 
 ### Then go back to playground and type
 
-28. docker build . t lambdata
+28. docker build . t lambdata #Builds the image
+
+### After build is successful
+
+docker run -it lambdata /bin/bash # Builds lambdata container and puts you in it
+
+python 3 # opens python inside the container
+
+### python code to look at what is in the container
+
+import lambdata_krissy as lambdata
+lambdata
+dir(lambdata)
+lambdata.ONES
+
+quit() #Leaves python
+exit #leaves container
+
+ls # returns Dockerfile and sampletext
+
+
+
+
 
 
             
