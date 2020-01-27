@@ -1,0 +1,27 @@
+- What, in your opinion, is an important part of code reviews? That is, what is
+  something you pay attention to when you review code, and that you appreciate
+  when others do the same for your code?
+
+Remember they are human and make sure you provide at least 2 positive comments for each
+piece of constructive criticsm you provide.
+
+Some of the things I like to hear and try to provide when doing a code review:
+
+1. Does the code meet PEP8 Guidlines
+
+2. Can you run it locally - does it work?
+
+3. Are there glaring problems in the existing code that could/should be fixed with changes?
+
+4. Do you have any "why is it like this" questions that I could address by adding comments?
+
+
+
+- We have an awful lot of computers here, and it gets pretty confusing with
+  slightly different things running on all of them. How could containers help us
+  improve this situation? 
+
+Using a container tool (i.e Docker, Red Hat) allows developers to package up an 
+application with all of the parts it needs, such as libraries and
+other dependencies, and ship it all out as one package. 
+Using a container would definitely help to improve the situation.
