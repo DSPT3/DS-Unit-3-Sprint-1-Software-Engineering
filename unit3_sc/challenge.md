@@ -61,7 +61,7 @@ follows:
 2812086  # your value will vary
 ```
 
-### Part 2 - Objects that Go!
+prod.explode### Part 2 - Objects that Go!
 
 The class you wrote in part 1 is nice, but it doesn't *do* anything - that is,
 it doesn't have any *methods*. So let's add some! Specifically, add two methods:
